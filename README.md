@@ -9,3 +9,7 @@ Below I've kept a log of the lectures and the associated code, with some additio
 ### Lesson 3: 
 - Naked earth (bare-rock) model
 - Greenhouse effect
+
+## Global Warming II: Create Your Own Models in Python
+### Lesson 1: 
+- (Transient) naked earth (bare-rock) model
