@@ -13,9 +13,11 @@ const (
 
 	AtmosLapseRate = 6.   // [K/km] (10. for dry air)
 	AtmosHeight    = 15.  // stratospheric height [km]
-	AtmosCO2       = 400. // concentration of CO2 [ppm]
+	AtmospCO2      = 400. // concentration of CO2 [ppm]
 	AtmosCH4       = 1.7  // concentration of methane [ppm]
 	AtmosRH        = .8   // relative humidity [-]
+
+	EqualibriumpCO2 = 280. // natural/baseline CO2 concentration [ppm]
 
 	CloudDropRadius = 1.e-6 // [m] seeded droplets = ~1-5μm
 

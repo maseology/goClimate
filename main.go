@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	// . "github.com/maseology/goClimate/climate"
+	"github.com/maseology/goClimate/climate"
 	"github.com/maseology/goClimate/lectures"
 	"github.com/maseology/mmio"
 )
@@ -55,7 +56,22 @@ func main() {
 			fmt.Println("\nIterative Runaway Ice-Albedo Feedback Model:")
 			lectures.IterativeRunawayIceAlbedoFeedbackModel(1.)
 		}()
+
+		func() {
+			fmt.Printf("\nCOURSE 2, LECTURE 3 =============\n")
+			fmt.Println("\nA Simple 1-D Ice Sheet Flow Model:")
+			lectures.IceSheetModel(.5)
+		}()
 	}
+
+	// func() {
+	// 	fmt.Printf("\nCOURSE 2, LECTURE 4 =============\n")
+	// 	fmt.Println("\nA 2-D Gridded Shallow Water Model:")
+	// 	lectures.SWE()
+	// }()
+
+	// Lecture 5 model:
+	climate.Nearterm()
 
 	tt.Print("\ngoClimate complete\n")
 }
